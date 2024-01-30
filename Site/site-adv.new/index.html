@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marzagão Advogados</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <div class="root">
@@ -23,9 +24,14 @@
                                 <li> <a href="#contact">Contato</a></li>
                             </ul>
                        </div>
-                    </div>
-             </div>
-         </div>
+                       <div class="mobile-menu" onclick="menuShow()">
+                        <span class="material-symbols-outlined">
+                            menu
+                        </span>                        
+                    </div>            
+                  </div>
+                </div>
+            </div>
         </section>
     <section class="home" id="home">
             <div class="home-container">
@@ -119,9 +125,21 @@
     <section class="footer">
         <div class="footer-container">
             <div class="footer-content">
-                <div class="footer-contacts"> <img src="" alt="localização"> <link rel="" href="">
-                    <img src="" alt="email"> <link rel="" href="">
-                    <img src="" alt="telefones"> <link rel="" href="">
+                <div class="footer-contacts">
+                    <ul class="contacts-links">
+                        <li class="links-footer-contact"><span class="material-symbols-outlined">
+                            location_city
+                            </span> <p>Localização, cidade, estado, n.</p></li>
+                        <li class="links-footer-contact"><span class="material-symbols-outlined">
+                                    call
+                            </span> <p>Clique para ser redirecionado.</p></li>
+                        <li class="links-footer-contact"><span class="material-symbols-outlined">
+                                        forward_to_inbox
+                            </span> <p>Marzagao@advogados.com</p></li>
+                        <li class="links-footer-contact"><span class="material-symbols-outlined">
+                                navigation
+                            </span> <p>Clique para abrir a navegação.</p></li>
+                    </ul>
                 </div>
                 <div class="footer-social"></div>
             </div>

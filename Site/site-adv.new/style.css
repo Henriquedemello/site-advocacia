@@ -9,6 +9,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 body {
     background-color: #ffff;
     position: relative;
@@ -81,6 +82,23 @@ a:hover {
     
 }
 
+.mobile-menu {
+    
+    display: none;
+}
+
+.menu-mobile-links { 
+    height: 100vh;
+    width: 50%;
+ 
+}
+
+.mobile-menu span {
+
+    font-size: 40px;
+    cursor: pointer;
+}
+
 
 
 
@@ -88,7 +106,7 @@ a:hover {
     height: 100vh;
     width: 100%;
     display: flex;
-    background-image: url(../marzagao.new/assets/martelo-da-corte-e-livros-conceito-de-julgamento-e-direito.jpg);
+    background-image: url(../site-adv.new/assets/martelo-da-corte-e-livros-conceito-de-julgamento-e-direito.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -354,7 +372,7 @@ img {
 .footer {
     background-color: #0f0f0f;
     width: 100%;
-    height: 20vh;
+    height: auto;
 
 }
 
@@ -366,13 +384,44 @@ img {
     max-width: 130rem;
     margin: 0 auto;
     padding: 0 4rem;
-    background-color: antiquewhite;
+    
 }
 
 .footer-content {
-    background-color: aqua;
+   
     width: 100%;
     height: 100%;
+}
+
+.contacts-links { 
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.links-footer-contact {
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.contacts-links span {
+    color: #ffffff;
+    font-size: 30px;
+    
+}
+
+.contacts-links p {
+    color: #ffffff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
 
 @media (max-width: 1000px) {
