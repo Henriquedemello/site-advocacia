@@ -396,12 +396,14 @@ img {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    gap: 2rem;
 }
 .links-footer-contact {
     display: flex;
-    gap: 8px;
     flex-direction: row;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
 }
 
 .contacts-links span {
