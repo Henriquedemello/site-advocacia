@@ -586,6 +586,16 @@ img {
     grid-row: 9 / span 2;
   }
 }
+
+@media (max-width: 590px) {
+
+
+  .mobile-menu-links a {
+
+    font-size: 18px;
+  }
+
+}
 @media (max-width: 450px) {
   html {
     font-size: 45.5%;
@@ -617,5 +627,9 @@ img {
 @media (max-width: 360px) {
   html {
     font-size: 35.5%;
+  }
+
+  .mobile-menu-links a {
+    font-size: 14px ;
   }
 }
