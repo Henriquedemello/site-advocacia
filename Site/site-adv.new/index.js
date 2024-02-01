@@ -10,10 +10,16 @@ function menuShow () {
 }
 
 document.addEventListener('DOMContentLoaded', function(){
-let menuMobile = document.querySelector(".mobile-menu");
+let menuMobile = document.querySelector(".mobile-menu")
 let closeMenu = document.getElementById("header")
 let myObserver = new IntersectionObserver ((entries) => { 
-   console.log(entries)
+   entries.forEach(entry => {
+    if(entry.isIntersecting === false){
+
+        menuMobile.classList.remove("open");
+
+    }
+   })
         
 })
 
